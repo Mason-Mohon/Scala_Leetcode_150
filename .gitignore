@@ -1,0 +1,27 @@
+# === Scala / SBT ===
+/target/
+/project/target/
+/project/project/
+/metals.sbt
+/.bloop/
+/.bsp/
+/.idea/
+/.vscode/
+/.metals/
+/.worksheet/
+/.ensime*
+/coursier
+
+# === VS Code ===
+*.code-workspace
+
+# === OS / Misc ===
+.DS_Store
+*.log
+
+# === IntelliJ ===
+*.iml
+/out/
+
+# === Metals cache ===
+.cache/
