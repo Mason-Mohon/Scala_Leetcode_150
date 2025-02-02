@@ -17,10 +17,18 @@
 //   println("Modified array: " + nums.slice(0, k).mkString(", "))
 // }
 
-// Remove Duplicates
+// // Remove Duplicates
+// object Main extends App {
+//   val nums = Array(0,0,1,1,1,2,2,3,3,4)
+//   val k = RemoveDuplicates.removeDuplicates(nums)
+//   println(s"Length after removal: $k")
+//   println("Modified array: " + nums.slice(0, k).mkString(", "))
+// }
+
+// Remove Duplicates II
 object Main extends App {
-  val nums = Array(0,0,1,1,1,2,2,3,3,4)
-  val k = RemoveDuplicates.removeDuplicates(nums)
+  val nums = Array(0,0,1,1,1,1,2,3,3)
+  val k = RemoveDuplicatesII.removeDuplicates(nums)
   println(s"Length after removal: $k")
   println("Modified array: " + nums.slice(0, k).mkString(", "))
 }
